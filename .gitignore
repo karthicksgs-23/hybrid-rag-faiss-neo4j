@@ -1,0 +1,36 @@
+# Environment variables / secrets
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Uploaded PDFs
+backend/uploads/
+
+# Generated FAISS databases
+backend/database/faiss/
+backend/database/faiss_index/
+
+# Cache
+.cache/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+*.pdf
